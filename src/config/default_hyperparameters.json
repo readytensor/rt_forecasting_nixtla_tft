@@ -4,7 +4,7 @@
   "num_head": 2, 
   "hidden_size": 32,
   "activation": "ReLU",
-  "max_steps": 1,
+  "max_steps": 500,
   "learning_rate": 0.001,
   "num_lr_decays": 3,
   "local_scaler_type": "minmax",
