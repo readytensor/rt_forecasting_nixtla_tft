@@ -1,0 +1,16 @@
+{
+  "history_forecast_ratio": 10,
+  "lags_forecast_ratio": 3,
+  "num_head": 2, 
+  "hidden_size": 32,
+  "activation": "ReLU",
+  "max_steps": 1,
+  "learning_rate": 0.001,
+  "num_lr_decays": 3,
+  "local_scaler_type": "minmax",
+  "early_stopping": true,
+  "use_exogenous": true,
+  "trainer_kwargs": {"accelerator": "gpu"},
+  "random_state": 0
+  
+}
