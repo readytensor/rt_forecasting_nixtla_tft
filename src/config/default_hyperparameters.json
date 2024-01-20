@@ -1,8 +1,8 @@
 {
-  "history_forecast_ratio": 5,
-  "lags_forecast_ratio": 2,
+  "history_forecast_ratio": 10,
+  "lags": 20,
   "num_head": 2, 
-  "hidden_size": 16,
+  "hidden_size": 32,
   "max_steps": 500,
   "learning_rate": 0.001,
   "num_lr_decays": 2,

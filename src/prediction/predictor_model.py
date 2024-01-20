@@ -39,8 +39,6 @@ class Forecaster:
         learning_rate: float = 0.001,
         num_lr_decays: int = -1,
         batch_size: int = 32,
-        activation: str = "ReLU",
-        shared_weights: bool = False,
         early_stopping: bool = False,
         early_stop_patience_steps: int = 50,
         min_delta: float = 0.0005,
