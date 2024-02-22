@@ -1,7 +1,7 @@
 {
   "history_forecast_ratio": 10,
   "lags": 20,
-  "num_head": 2, 
+  "num_head": 2,
   "hidden_size": 32,
   "max_steps": 1000,
   "learning_rate": 0.001,
@@ -9,7 +9,8 @@
   "local_scaler_type": "minmax",
   "early_stopping": true,
   "use_exogenous": false,
-  "trainer_kwargs": {"accelerator": "gpu"},
+  "trainer_kwargs": {
+    "accelerator": "gpu"
+  },
   "random_state": 0
-  
 }
