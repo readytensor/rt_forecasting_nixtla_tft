@@ -51,7 +51,7 @@ class Forecaster:
         trainer_kwargs: dict = {},
         **kwargs,
     ):
-        """Construct a new NBEATS Forecaster
+        """Construct a new TFT Forecaster
 
         Args:
 
