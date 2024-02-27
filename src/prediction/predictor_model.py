@@ -19,7 +19,7 @@ logger = get_logger(task_name="model")
 
 
 class Forecaster:
-    """A wrapper class for the NBEATS Forecaster.
+    """A wrapper class for the TFT Forecaster.
 
     This class provides a consistent interface that can be used with other
     Forecaster models.
