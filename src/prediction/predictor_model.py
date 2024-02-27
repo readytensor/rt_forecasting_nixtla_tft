@@ -25,7 +25,7 @@ class Forecaster:
     Forecaster models.
     """
 
-    model_name = "NBEATS Forecaster"
+    model_name = "TFT Forecaster"
 
     def __init__(
         self,
